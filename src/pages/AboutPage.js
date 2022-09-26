@@ -3,7 +3,6 @@ import WomanPC from "../img/WomanPC.png";
 
 export const Column = styled.div`
   display: flex;
-
   flex-direction: row;
   flex-wrap: nowrap;
 `;
