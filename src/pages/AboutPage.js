@@ -1,8 +1,4 @@
-import {
-  AboutInfo,
-  AboutTitle,
-  AboutTitleH2,
-} from "../Components/AboutComonents/AboutText";
+import { AboutInfo, AboutTitle, AboutTitleH2 } from "./aboutPage/AboutText";
 import {
   Column,
   Container,
@@ -12,8 +8,8 @@ import {
   NewSection,
   PaddingDiv,
   PSTyle,
-} from "../Components/AboutComonents/StyledAbout";
-import WomanPC from "../Components/AboutComonents/WomanPC.png";
+} from "./aboutPage/StyledAbout";
+import WomanPC from "../pages/aboutPage/img/WomanPC.png";
 
 const AboutPage = () => {
   return (
